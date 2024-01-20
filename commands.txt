@@ -4,6 +4,14 @@ winget install --id Git.Git -e --source winget
 #check git version
 git --version
 
+echo "# Git" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/FrancielRezende/Git.git
+git push -u origin main
+
 #config git user
 git config --global user.name "francielrezende"
 
