@@ -87,4 +87,10 @@ git stash list
 #rollback to your stash
 git stash apply stash_id
 
+#shoe stash changes
+git stash show -p stash_id
+
+#create tag
+git tag -a v1.0 -m "message"
+
 Franciel Rezende
