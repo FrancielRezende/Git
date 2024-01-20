@@ -55,4 +55,8 @@ git checkout .
 git clone https://github.com/FrancielRezende/Git.git
 git clone https://github.com/FrancielRezende/Git.git . 
 
+# for .gitignore
+file
+/folder
+
 Franciel Rezende
