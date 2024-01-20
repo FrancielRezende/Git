@@ -1,0 +1,22 @@
+#install git
+winget install --id Git.Git -e --source winget
+
+#check git version
+git --version
+
+#config git user
+git config --global user.name "francielrezende"
+
+#config git user email
+git config --global user.email "francielrezende@gmail.com"
+
+#get git configs
+git config user.name
+git config user.email
+
+#start a git directory
+cd /local/forlder
+git init
+
+#check git status
+git status
