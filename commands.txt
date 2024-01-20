@@ -62,4 +62,13 @@ git clone https://github.com/FrancielRezende/Git.git .
 file
 /folder
 
+#show all branches
+git branch
+
+#crate branch
+git branch name
+
+#change branch
+git checkout branch_name
+
 Franciel Rezende
