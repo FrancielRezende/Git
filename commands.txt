@@ -93,4 +93,10 @@ git stash show -p stash_id
 #create tag
 git tag -a v1.0 -m "message"
 
+#show tags
+git tag
+
+#show tag information
+git show tag_name
+
 Franciel Rezende
