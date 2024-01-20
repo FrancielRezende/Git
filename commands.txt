@@ -44,4 +44,11 @@ git add .
 git commit -m file "message"
 git commit -m "message"
 
+#sync online repo with local repo
+git pull
+
+#clone online repo, using . the command will save the files directly in the folder you in
+git clone https://github.com/FrancielRezende/Git.git
+git clone https://github.com/FrancielRezende/Git.git . 
+
 Franciel Rezende
