@@ -72,7 +72,13 @@ git checkout -b branch_name
 #delete branch
 git branch -d branch_name
 
-#change branch
+#change to a existent branch
 git checkout branch_name
+
+#merge a local branch with the main, you can also use this to merge the main repo to an existent branch
+git merge branch_name
+
+#returning to your last commit
+git stash
 
 Franciel Rezende
