@@ -20,7 +20,7 @@ git branch -M main
 git push -u origin main
 
 #config git user
-git config --global user.name "francielrezende"
+git config --global user.name "Franciel Rezende"
 
 #config git user email
 git config --global user.email "francielrezende@gmail.com"
