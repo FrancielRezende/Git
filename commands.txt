@@ -81,4 +81,10 @@ git merge branch_name
 #returning to your last commit
 git stash
 
+#list all stashs
+git stash list
+
+#rollback to your stash
+git stash apply stash_id
+
 Franciel Rezende
