@@ -65,8 +65,12 @@ file
 #show all branches
 git branch
 
-#crate branch
+#crate branch / create a branch and move to it
 git branch name
+git checkout -b branch_name
+
+#delete branch
+git branch -d branch_name
 
 #change branch
 git checkout branch_name
