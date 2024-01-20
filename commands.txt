@@ -4,12 +4,19 @@ winget install --id Git.Git -e --source winget
 #check git version
 git --version
 
+#commands from github
+#creating and uploading a new repo
 echo "# Git" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/FrancielRezende/Git.git
+git push -u origin main
+
+#uploading an existent local repo
+git remote add origin https://github.com/FrancielRezende/Git.git
+git branch -M main
 git push -u origin main
 
 #config git user
