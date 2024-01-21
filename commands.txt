@@ -119,5 +119,7 @@ git push origin --tags
 #clean repo unnecessary files
 git gc
 
+#show all logs grouping by user
+git shortlog
 
 Franciel Rezende
