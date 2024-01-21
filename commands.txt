@@ -99,4 +99,11 @@ git tag
 #show tag information
 git show tag_name
 
+#navigate using tags
+git checkout tag_name
+
+#send a tag to github / send all tags to github
+git push origin tag_name
+git push origin --tags
+
 Franciel Rezende
