@@ -81,6 +81,9 @@ git merge branch_name
 #sending a branch to online repo
 git push --set-upstream origin branch_name
 
+#getting a list of all existent branches
+git fetch -a
+
 #returning to your last commit
 git stash
 
