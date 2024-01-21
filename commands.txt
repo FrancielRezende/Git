@@ -22,6 +22,10 @@ git push -u origin main
 #config git user
 git config --global user.name "Franciel Rezende"
 
+#changing user.name/user.email values
+git config user.name "Franciel Rezende"
+git config user.email "francielrezende@gmail.com"
+
 #config git user email
 git config --global user.email "francielrezende@gmail.com"
 
