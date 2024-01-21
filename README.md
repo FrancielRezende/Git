@@ -1,3 +1,3 @@
-# Git
+# Learning Git
 
 Franciel Rezende
