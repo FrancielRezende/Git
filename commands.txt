@@ -119,8 +119,14 @@ git push origin --tags
 #clean repo unnecessary files
 git gc
 
+#show logs without grouping
+git log
+
 #show all logs grouping by user
 git shortlog
+
+#show all logs from a repo, 30 days maximum 
+git reflog
 
 #compare local repo with online repo / comparing branch / comparing files / subfolder
 git diff
