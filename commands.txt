@@ -122,4 +122,10 @@ git gc
 #show all logs grouping by user
 git shortlog
 
+#compare local repo with online repo / comparing branch / comparing files / subfolder
+git diff
+git diff branch_name
+git diff HEAD: file
+git diff HEAD: /folder/file
+
 Franciel Rezende
