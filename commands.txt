@@ -76,7 +76,7 @@ git branch -d branch_name
 git checkout branch_name
 
 #merge a local branch with the main, you can also use this to merge the main repo to an existent branch
-git merge branch_name
+git merge origin/branch_name
 
 #sending a branch to online repo
 git push --set-upstream origin branch_name
