@@ -112,4 +112,8 @@ git checkout tag_name
 git push origin tag_name
 git push origin --tags
 
+#clean repo unnecessary files
+git gc
+
+
 Franciel Rezende
