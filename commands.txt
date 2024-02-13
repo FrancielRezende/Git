@@ -44,6 +44,9 @@ git status
 git add file
 git add .
 
+#clear git add. cache
+git rm -r --cached .
+
 #commit file with message / commit the hole repo
 git commit file -m "message"
 git commit -m "message"
